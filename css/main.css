@@ -16,8 +16,8 @@ footer {
   color: white;
   font-size: 12px;
   height: 30px;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 1vw;
+  padding-top: 1vh;
   position: fixed;
   width: 100%;
 }
@@ -1025,7 +1025,7 @@ input:checked {
   padding: 5px;
 }
 
-.knowmore-section aside a {
+.knowmore-section a {
   color: black;
 }
 
