@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Montserrat, "Forte", san-serif;
+  font-family: Montserrat, "Times new roman", san-serif;
 }
 
 /* Footer Stylings */
@@ -13,7 +13,7 @@ body {
 footer {
   background-color: rgb(121, 62, 62);
   bottom: 0;
-  color: white;
+  color: rgb(240, 168, 168);
   font-size: 12px;
   height: 30px;
   padding-left: 1vw;
@@ -23,7 +23,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: rgb(240, 168, 168);
   font-size: 12px;
 }
 
@@ -49,14 +49,14 @@ footer a {
   width: 100%;
 }
 
-.nav-header>.nav-title {
+.nav-header > .nav-title {
   font-family: navBrandFont;
   font-size: 25px;
   padding-top: 5px;
 }
 
-.nav-header>.nav-title>a {
-  color: #fff;
+.nav-header > .nav-title > a {
+  color: white;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ footer a {
   display: none;
 }
 
-.nav-links>ul>li {
+.nav-links > ul > li {
   display: inline-block;
   font-size: 14px;
   margin-left: 25px;
@@ -76,7 +76,7 @@ footer a {
   padding-top: 15px;
 }
 
-.nav-links>ul>li>a {
+.nav-links > ul > li > a {
   color: #efefef;
   text-decoration: none;
 }
@@ -297,8 +297,6 @@ footer a {
   width: 40px;
 }
 
-
-
 /* end of go to top styling */
 
 .cardHolder button {
@@ -494,7 +492,7 @@ footer a {
 
 .package-main th {
   background-color: rgb(121, 62, 62);
-  color: white;
+  color: rgb(240, 168, 168);
 }
 
 .qtr {
@@ -502,7 +500,7 @@ footer a {
 }
 
 .package-main .alt1 {
-  background-color: rgb(243, 226, 226);
+  background-color: rgb(240, 168, 168);
   color: rgb(38, 34, 34);
 }
 
@@ -946,7 +944,7 @@ input:checked {
 .grid-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "menu menu menu main main main""right right right main main main""right right right footer footer footer";
+  grid-template-areas: "menu menu menu main main main" "right right right main main main" "right right right footer footer footer";
   margin-left: 129px;
   margin-right: 129px;
   margin-top: 20px;
@@ -1039,15 +1037,15 @@ input:checked {
   color: black;
 }
 
-.knowmore:hover{
-  color:#007bff;
+.knowmore:hover {
+  color: #007bff;
 }
 
-.knowmore:visited{
+.knowmore:visited {
   color: palevioletred;
 }
 
-p>em {
+p > em {
   float: right;
 }
 
@@ -1064,6 +1062,6 @@ p>em {
   text-align: justify;
 }
 
-.terms-section>p {
+.terms-section > p {
   margin-top: 20px;
 }
