@@ -160,7 +160,7 @@ footer a {
   text-align: center;
 }
 
-.text a {
+.column a {
   text-decoration: none;
 }
 
@@ -171,6 +171,7 @@ footer a {
   left: 30px;
   position: relative;
   width: 78%;
+  color:rgb(0, 0, 0);
 }
 
 /* Carousel Stylings */
