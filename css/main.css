@@ -1039,6 +1039,14 @@ input:checked {
   color: black;
 }
 
+.knowmore:hover{
+  color:#007bff;
+}
+
+.knowmore:visited{
+  color: palevioletred;
+}
+
 p>em {
   float: right;
 }
