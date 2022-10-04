@@ -8,19 +8,19 @@
 2. Clone your forked copy of the project.
 
 ```bash
-git clone https://github.com/<your username>/Algorithms-must-learn-in-2022.git
+git clone https://github.com/<your username>/Travel-in-Hacktober.git
 ```
 
 3. Change the working directory
 
 ```bash
-cd Algorithms-must-learn-in-2022
+cd Travel-in-Hacktober
 ```
 
 4. Add a reference to the original repository.
 
 ```
-git remote add upstream https://github.com/Code-Stellars/Algorithms-must-learn-in-2022
+git remote add upstream https://github.com/Code-Stellars/Travel-in-Hacktober
 ```
 
 5. Check the remotes for this repository.
