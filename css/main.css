@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  position: relative;
 }
 
 body {
@@ -39,22 +40,22 @@ footer a {
 }
 
 .nav-header {
-  background-color: rgb(121,62,62);
+  background-color: rgb(121, 62, 62);
   display: flex;
   height: 50px;
   padding-left: 50px;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
 }
 
-.nav-header > .nav-title {
+.nav-header>.nav-title {
   font-family: navBrandFont;
   font-size: 25px;
   padding-top: 5px;
 }
 
-.nav-header > .nav-title > a {
+.nav-header>.nav-title>a {
   color: #fff;
   text-decoration: none;
 }
@@ -67,7 +68,7 @@ footer a {
   display: none;
 }
 
-.nav-links > ul > li {
+.nav-links>ul>li {
   display: inline-block;
   font-size: 14px;
   margin-left: 25px;
@@ -75,7 +76,7 @@ footer a {
   padding-top: 15px;
 }
 
-.nav-links > ul > li > a {
+.nav-links>ul>li>a {
   color: #efefef;
   text-decoration: none;
 }
@@ -113,7 +114,7 @@ footer a {
   height: 250px;
   margin: 15px;
   padding: 10px;
-  width: 270px; 
+  width: 270px;
 }
 
 .description {
@@ -171,7 +172,7 @@ footer a {
   left: 30px;
   position: relative;
   width: 78%;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* Carousel Stylings */
@@ -241,7 +242,7 @@ footer a {
   30% {
     margin-left: -1200px;
   }
-  
+
   40% {
     margin-left: -2400px;
   }
@@ -272,16 +273,20 @@ footer a {
 .top {
   background-color: rgb(121, 62, 62);
   border-radius: 5px;
-  bottom: 50px;
   color: white;
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 20px;
   height: 25px;
-  margin-left: 1270px;
-  padding: 5px;
+  /*margin-left: 1270px;*/
+  padding: 0px;
   position: fixed;
+  bottom: 10%;
+  right: 5%;
   text-align: center;
   width: 40px;
 }
+
+
 
 /* end of go to top styling */
 
@@ -512,14 +517,14 @@ footer a {
 
 /* offers page */
 
-.wrapper{
-  display:grid;
-  grid-template-columns: 1fr 1fr ;
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 480px;
-  grid-gap:10px;
+  grid-gap: 10px;
   margin-left: 245px;
   margin-top: 100px;
-  max-width:860px;
+  max-width: 860px;
 }
 
 .offer-usa .superSaver-image,
@@ -558,8 +563,8 @@ footer a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column:2/3;
-  grid-gap:8px;
+  grid-column: 2/3;
+  grid-gap: 8px;
 }
 
 .shopping-festival {
@@ -601,8 +606,8 @@ footer a {
 }
 
 .india-offer {
-  grid-column:1/2;
-  grid-row:2/3;
+  grid-column: 1/2;
+  grid-row: 2/3;
   height: 260px;
   width: 230px;
 }
@@ -619,7 +624,7 @@ footer a {
 .india-offer .indiaOffer-image {
   background-image: url("../images/taj.jpeg");
   background-position: center;
-  background-size: cover;  
+  background-size: cover;
   transform: perspective(1000px) rotateY(0deg);
 }
 
@@ -741,6 +746,7 @@ footer a {
   font-weight: 600;
   margin-left: 135px;
 }
+
 .form-row:after {
   clear: both;
   content: "";
@@ -751,8 +757,8 @@ footer a {
   float: left;
 }
 
-#notifications{
-  margin-top:30px;
+#notifications {
+  margin-top: 30px;
 }
 
 input[type="text"],
@@ -890,7 +896,7 @@ input:checked {
 
 .gallery-column img {
   margin-top: 20px;
-  width:100%;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -930,7 +936,7 @@ input:checked {
 .grid-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "menu menu menu main main main" "right right right main main main" "right right right footer footer footer";
+  grid-template-areas: "menu menu menu main main main""right right right main main main""right right right footer footer footer";
   margin-left: 129px;
   margin-right: 129px;
   margin-top: 20px;
@@ -1023,7 +1029,7 @@ input:checked {
   color: black;
 }
 
-p > em {
+p>em {
   float: right;
 }
 
@@ -1040,6 +1046,6 @@ p > em {
   text-align: justify;
 }
 
-.terms-section > p {
+.terms-section>p {
   margin-top: 20px;
 }
