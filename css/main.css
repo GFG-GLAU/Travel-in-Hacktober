@@ -300,8 +300,8 @@ footer a {
 /* end of go to top styling */
 
 .cardHolder button {
-  background-color: #007bff;
-  border: 1px solid blue;
+  background-color: rgb(153, 46, 46);
+  border: 1px solid brown;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
