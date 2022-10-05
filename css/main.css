@@ -104,36 +104,38 @@ footer a {
 .cardHolder {
   background-color: rgb(240, 235, 235);
   border-radius: 15px;
-  bottom: 100px;
-  height: 500px;
+  bottom: 20vh;
+  height: 80vh;
   margin-left: 100px;
   margin-top: 60px;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   right: 20px;
-  width: 1200px;
+  width: 87vw;
 }
 
 .h2-text {
-  font-size: 25px ;
+  font-size: 3.5vw ;
+  align-content: center;
 }
 
 .column {
   box-sizing: border-box;
   float: left;
-  height: 250px;
+  height: 40vh;
   margin: 15px;
   padding: 10px;
-  width: 270px;
+  width: 260px;
 }
 
 .description {
   color: rgb(0, 0, 0);
   font-family: "Abel", sans-serif;
-  font-size: 20px;
+  font-size: 3vh;
   font-weight: 600;
   position: relative;
   text-align: center;
+  align-content: center;
   top: -180px;
 }
 
