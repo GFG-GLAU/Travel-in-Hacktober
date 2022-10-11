@@ -131,12 +131,13 @@ footer a {
 .description {
   color: rgb(0, 0, 0);
   font-family: "Abel", sans-serif;
-  font-size: 3vh;
+  font-size: 1.5rem;
   font-weight: 600;
   position: relative;
   text-align: center;
   align-content: center;
-  top: -180px;
+  padding: 0 10px;
+  top: -280px;
 }
 
 .button-card {
@@ -149,10 +150,12 @@ footer a {
 .column:hover img {
   backface-visibility: hidden;
   opacity: 0.2;
+  transition: 0.3s;
 }
 
 .column:hover .text {
   opacity: 1;
+  transition: 0.3s;
 }
 
 .column img {
@@ -249,38 +252,39 @@ footer a {
 }
 
 @keyframes slide {
+  5%{
+    margin-left: 0;
+  }
   10% {
     margin-left: 0;
   }
-
+  15%{
+    margin-left: 0;
+  }
   20% {
     margin-left: -1200px;
   }
-
+  25% {
+    margin-left: -1200px;
+  }
   30% {
     margin-left: -1200px;
   }
-
   40% {
     margin-left: -2400px;
   }
-
   50% {
     margin-left: -2400px;
   }
-
   60% {
     margin-left: -3600px;
   }
-
   70% {
     margin-left: -3600px;
   }
-
   80% {
     margin-left: -4800px;
   }
-
   100% {
     margin-left: -4800px;
   }
