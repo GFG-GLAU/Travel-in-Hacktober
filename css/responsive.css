@@ -1582,10 +1582,7 @@
     display: block;
   }
 
-  .item2,
-  .item3,
-  .item4,
-  .item5 {
+  .item2, item3, .item4, .item5 {
     height: 250px;
     margin-top: 20px;
   }
@@ -1596,6 +1593,7 @@
   body {
     overflow-x: hidden;
   }
+  
 
   .gallery-video {
     margin-left: 150px;
@@ -1667,7 +1665,7 @@
   }
 
   .main-gallery hr {
-    width: 89%;
+    width: 90%;
     margin-left: 20px;
     margin-top: 40px;
   }
@@ -1678,18 +1676,14 @@
     display: block;
   }
 
-  .item2,
-  .item3,
-  .item4,
-  .item5 {
+  .item2, .item3, .item4, .item5 {
     height: 250px;
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
-  html,
-  body {
+  html, body {
     overflow-x: hidden;
   }
 
@@ -1718,7 +1712,7 @@
   }
 
   .main-gallery hr {
-    width: 89%;
+    width: 90%;
     margin-left: 20px;
     margin-top: 40px;
   }
@@ -1737,5 +1731,4 @@
     margin-top: 20px;
   }
 }
-
-/* style.css responsive */
+  
